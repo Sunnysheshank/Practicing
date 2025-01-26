@@ -61,14 +61,14 @@ function App() {
 function Header() {
   return (
     <header className="header">
-      <h1> Welcome to Pizza Zone! </h1>;
+      <h1> Welcome to Pizza Zone </h1>;
     </header>
   );
 }
 function Menu() {
   return (
     <menu className="menu">
-      <h2>OurMenu</h2>
+      <h2>Our-Menu</h2>
       <ul>
         {pizzaData.map((pizza) => (
           <Pizza pizzaobj={pizza} key={pizza.name} />
