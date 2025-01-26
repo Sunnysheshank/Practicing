@@ -61,7 +61,7 @@ function App() {
 function Header() {
   return (
     <header className="header">
-      <h1> Welcome to Pizza Zone </h1>;
+      <h1> Welcome to Pizza Zone! </h1>;
     </header>
   );
 }
